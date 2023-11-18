@@ -1,0 +1,13 @@
+mat-form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+  }
+  .mat-form-field-invalid .mat-input-element {
+    background-color: #ffcccc; /* Set your desired background color for errors */
+  }
+  
+  .mat-form-field .mat-input-element {
+    background-color: #ffffff; /* Set your desired background color for valid state */
+  }
